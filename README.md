@@ -22,3 +22,10 @@ ansible-playbook linux_playbooks/setup_new_server.yml
 ```
 
 If a playbook applies to a group, then add vagrant-linux into that group within the **inventory** file
+
+For example, if you want to run linux_playbooks/install_php56.yml, you will add **vagrant-linux** under the [php56] group in **inventory** file.
+```
+[php56]
+vagrant-linux
+```
+
