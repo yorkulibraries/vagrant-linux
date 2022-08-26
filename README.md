@@ -16,7 +16,7 @@ ansible-galaxy install -r linux_playbooks/requirements.yml
 vagrant up
 ```
 
-### Run a playbook
+### Run a playbook to setup the new server
 ```
 ansible-playbook linux_playbooks/setup_new_server.yml
 ```
@@ -29,3 +29,6 @@ For example, if you want to run linux_playbooks/install_php56.yml, you will add 
 vagrant-linux
 ```
 
+```
+ansible-playbook linux_playbooks/install_php56.yml
+```
